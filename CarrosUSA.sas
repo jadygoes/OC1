@@ -1,4 +1,4 @@
 data carros; 
 	set sashelp.cars;
-	where origin = 'USA';
+	where origin = 'Asia';
 run;
