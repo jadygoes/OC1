@@ -8,4 +8,5 @@
 *
 */
 
-libname sicoob base "&caminho_libs/Sicoob"
+libname sicoob base "&caminho_libs/Sicoob";
+libname sicoopsp base "&caminho_libs/SicoobSP";
