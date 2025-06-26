@@ -10,6 +10,7 @@
 
 %include "/opt/sas/Workshop/Git/OC1/macro/macrovars.sas";
 %include "&caminho/src/libraries.sas";
+%include "&caminho/macro/importar_dados.sas";
 
 %importar_dados(vendas, vendas);
 %importar_dados(produtos, produtos);
