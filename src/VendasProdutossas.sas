@@ -29,3 +29,6 @@ data sicoobsp.VendasProduto;
 	merge work.vendas_produto work.produtos_produto;
 	by CodProduto;
 run;
+
+%include "&caminho/src/clear_libs.sas";
+
